@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>REGex Housing</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap files -------------------------------------------->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header id="home">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <a class="navbar-brand pl-lg-1 pl-lg-5  font-weight-600" href="#">
+               REGex HOUSING
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto mr-lg-5 pr-lg-3 font-weight-bold">
+                    <a class="nav-item nav-link active" href="#home">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link non-active" href="#services">Services</a>
+                    <a class="nav-item nav-link non-active" href="#about">About Us</a>
+                    <a class="nav-item nav-link non-active" href="#portfolio">Portfolio</a>
+                    <a class="nav-item nav-link non-active" href="#price">Pricing</a>
+                    <a class="nav-item nav-link non-active" href="#team">Our Team</a>
+                    <a class="nav-item nav-link non-active" href="#contact">Contact</a>
+                </div>
+            </div>
+        </nav>
+        <!-- Casurol coding starts -->
+        <div id="carouselHouse" class="carousel slide border-bottom-0 border-primary" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="img/predefined/casurol/intro-carousel/1.jpg" alt="First slide" style="height: 100vh;">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/predefined/casurol/intro-carousel/2.jpg" alt="Second slide" style="height: 100vh;">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/predefined/casurol/intro-carousel/3.jpg" alt="Third slide" style="height: 100vh;">
+                </div>
+            </div>
+        </div>
+        <!------------------------------------->
+    </header>
+    <!-- our services starts -->
+    <div class="container py-5" id="services" >
+
+        <h1 class="text-center pt-4 text-uppercase our_services">Our Services</h1>
+        <div class="pt-3 services_line "></div>
+        <p class="text-center pt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <div class="row text-center d-flex align-items-center">
+            <div class="col-sm-12 col-md-6 col-lg-6 col- col-xl-4 pt-3">
+                <div class="containerBox">
+                    <div class="card" style="width: 18rem;">
+                        <i class="fas fa-home fa-2x card_icon"></i>
+                        <div class="card-body">
+                            <h5 class="card-title text-uppercase font-weight-bold">interior design</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 col- col-xl-4 pt-3">
+                <div class="containerBox">
+                    <div class="card" style="width: 18rem;">
+                        <i class="fas fa-building fa-2x card_icon"></i>
+                        <div class="card-body">
+                            <h5 class="card-title text-uppercase font-weight-bold">architecture</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 col- col-xl-4 pt-3">
+                <div class="containerBox">
+                    <div class="card" style="width: 18rem;">
+                        <i class="fas fa-shopping-bag fa-2x card_icon"></i>
+                        <div class="card-body">
+                            <h5 class="card-title text-uppercase font-weight-bold">consultations</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 col- col-xl-4 pt-3">
+                <div class="containerBox">
+                    <div class="card" style="width: 18rem;">
+                        <i class="fas fa-signal fa-2x card_icon"></i>
+                        <div class="card-body">
+                            <h5 class="card-title text-uppercase font-weight-bold">kitchen</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 col- col-xl-4 pt-3">
+                <div class="containerBox">
+                    <div class="card" style="width: 18rem;">
+                        <i class="fas fa-key fa-2x card_icon"></i>
+                        <div class="card-body">
+                            <h5 class="card-title text-uppercase font-weight-bold">Decorative</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 col- col-xl-4 pt-3">
+                <div class="containerBox">
+                    <div class="card" style="width: 18rem;">
+                        <i class="fab fa-dropbox fa-2x card_icon"></i>
+                        <div class="card-body">
+                            <h5 class="card-title text-uppercase font-weight-bold">Space planning</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- our services end -->
+    <!-- Who we are? starts -->
+    <div class="container pt-5" id="about">
+        <h1 class="text-center pt-4 text-uppercase our_services">Who we are?</h1>
+        <div class="pt-3 services_line "></div>
+        <p class="text-center pt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+        <div class="container">
+            <!-- container can also be used to occupy the full width -->
+            <div class="row my-5">
+                <!-- only upto 12 coloums is allowed -->
+                <div class="col-lg-6 col-12 col-xxl-6">
+                    <!-- lg = large md=mediumdevices xxl=extra large devices -->
+                    <figure>
+                        <!--  it is better to place the image in the figure tag -->
+                        <img class="img-fluid about_image" src="img/predefined/casurol/intro-carousel/about/about-img.png" alt="about images">
+                        <!--  always use the alt tag for the better usage in the react -->
+                    </figure>
+                </div>
+
+                <div class="col-lg-6 col-xxl-6 d-flex  align-items-start flex-column">
+                    <!-- display flex to make the display work-->
+                    <p class="font-weight-bold">Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+                    <p class="font-italic text-secondary">Lorem ipsum dolor sit amet, consectetconsectconsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                    <p><i class="far fa-check-circle card_iconAbout"></i>Duis aute irure dolor in reprehenderit in voluptate </p>
+                    <p><i class="far fa-check-circle card_iconAbout"></i>Duis aute irure dolor in reprehenderit in voluptate </p>
+                    <p><i class="far fa-check-circle card_iconAbout"></i>Duis aute irure dolor in reprehenderit in voluptate </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Clients Starts -->
+    <div class="container">
+        <h1 class="text-center pt-4 text-uppercase our_services">Clients</h1>
+        <div class="pt-3 services_line "></div>
+        <p class="text-center pt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+        <div class="row text-center d-flex align-items-center">
+            <div class="col-sm-4 col-md-2">
+                <div class="containerBox grayscale" style="padding-top:15px;">
+                    <img src="img/predefined/casurol/clients/client-1.png" style="width:100px;">
+                </div>
+            </div>
+            <div class="col-sm-4 col-md-2 ">
+                <div class="containerBox grayscale" style="padding-top:15px;">
+                    <img src="img/predefined/casurol/clients/client-2.png" style="width:100px;">
+                </div>
+            </div>
+            <div class="col-sm-4 col-md-2 ">
+                <div class="containerBox grayscale" style="padding-top:15px;">
+                    <img src="img/predefined/casurol/clients/client-3.png" style="width:100px;">
+                </div>
+            </div>
+            <div class="col-sm-4 col-md-2 ">
+                <div class="containerBox grayscale" style="padding-top:15px;">
+                    <img src="img/predefined/casurol/clients/client-4.png" style="width:100px;">
+                </div>
+            </div>
+            <div class="col-sm-4 col-md-2 ">
+                <div class="containerBox grayscale" style="padding-top:15px;">
+                    <img src="img/predefined/casurol/clients/client-5.png" style="width:100px;">
+                </div>
+            </div>
+            <div class="col-sm-4 col-md-2 ">
+                <div class="containerBox grayscale" style="padding-top:15px;">
+                    <img src="img/predefined/casurol/clients/client-6.png" style="width:100px;">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Clients ends -->
+    <!-- Portpholio Starts -->
+    <div class="container-fluid box mt-5 pt-5 pb-5" style="padding-top: 20px;" id="portfolio">
+        <h1 class="text-center  text-uppercase our_services" style="color: #fff;">Our portfolio</h1>
+        <div class="pt-3 services_line "></div>
+        <p class="text-center pt-3" style="color: #fff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+        <div class="row">
+            <div class="col-md-6 col-lg-3 pt-4">
+                <img src="img/predefined/casurol/portfolio/1.jpg" style="width:100%;height:160px;">
+            </div>
+            <div class="col-md-6 col-lg-3 pt-4">
+                <img src="img/predefined/casurol/portfolio/2.jpg" style=" width:100%;height:160px;">
+            </div>
+            <div class="col-md-6 col-lg-3 pt-4">
+                <img src="img/predefined/casurol/portfolio/3.jpg" style="width:100%;height:160px;">
+            </div>
+            <div class="col-md-6 col-lg-3 pt-4">
+                <img src="img/predefined/casurol/portfolio/4.jpg" style="width:100%;height:160px;">
+            </div>
+            <div class="col-md-6 col-lg-3 pt-4">
+                <img src="img/predefined/casurol/portfolio/5.jpg" style="width:100%;height:160px;">
+            </div>
+            <div class="col-md-6 col-lg-3 pt-4">
+                <img src="img/predefined/casurol/portfolio/6.jpg" style="width:100%;height:160px;">
+            </div>
+            <div class="col-md-6 col-lg-3 pt-4">
+                <img src="img/predefined/casurol/portfolio/7.jpg" style="width:100%;height:160px;">
+            </div>
+            <div class="col-md-6 col-lg-3 pt-4">
+                <img src="img/predefined/casurol/portfolio/8.jpg" style="width:100%;height:160px;">
+            </div>
+        </div>
+    </div>
+    <!-- Port pholio starts-->
+    <div class="container mt-5">
+        <h1 class="text-center pt-5 text-uppercase our_services">Testimonials</h1>
+        <div class="pt-3 services_line "></div>
+        <p class="text-center pt-3" ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+            <div class="row text-center hider ">
+                <div class="col-sm-12 col-lg-4 pt-3 ">
+                    <div class="containerBox d-inline-block ">
+                        <div class="card " style="width: 18rem; ">
+                            <div class="card-body ">
+                                <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+
+                        </div>
+                        <div>
+                            <p class="font-weight-bold ">Mario James</p>
+                            <p class="color-secondary ">CEO&Founder</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-4 pt-3 ">
+                    <div class="containerBox d-inline-block ">
+                        <div class="card " style="width: 18rem; ">
+                            <div class="card-body ">
+                                <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="font-weight-bold ">Mario James</p>
+                            <p class="color-secondary ">CEO&Founder</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-4 pt-3 ">
+                    <div class="containerBox d-inline-block ">
+                        <div class="card " style="width: 18rem; ">
+                            <div class="card-body ">
+                                <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="font-weight-bold ">Mario James</p>
+                            <p class="color-secondary ">CEO&Founder</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center effect hider ">
+                <div class="col-sm-12 col-lg-4 pt-3 ">
+                    <div class="containerBox d-inline-block ">
+                        <div class="card " style="width: 18rem; ">
+                            <div class="card-body ">
+                                <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="font-weight-bold ">Mario James</p>
+                            <p class="color-secondary ">CEO&Founder</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-4 pt-3 ">
+                    <div class="containerBox d-inline-block ">
+                        <div class="card " style="width: 18rem; ">
+                            <div class="card-body ">
+                                <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="font-weight-bold ">Mario Jamedds</p>
+                            <p class="color-secondary ">CEO&Founder</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-4 pt-3 ">
+                    <div class="containerBox d-inline-block ">
+                        <div class="card " style="width: 18rem; ">
+                            <div class="card-body ">
+                                <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="font-weight-bold ">Mario James</p>
+                            <p class="color-secondary ">CEO&Founder</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-4 ">
+                <div class="col-12 text-center ">
+                    <button style="border:none; background-color:white; "><i class="far fa-circle " onclick="showrow1() "></i></button>
+                    <button style="border:none; background-color:white; "><i class="far fa-circle " onclick="showrow2() "></i></button>
+                </div>
+            </div>
+    </div>
+
+        <!-- our services starts -->
+        <div class="container pt-5" id="price">
+
+            <h1 class="text-center pt-4 text-uppercase our_services ">Our Services</h1>
+            <div class="pt-3 services_line "></div>
+            <p class="text-center pt-3 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <div class="row text-center d-flex align-items-center ">
+                <div class="col-sm-12 col-md-6 col-lg-6 col- col-xl-4 pt-3 ">
+                    <div class="containerBox ">
+                        <div class="card " style="width: 18rem; ">
+                            <div class="card-body ">
+                                <h5 class="card-title text-uppercase font-weight-bold ">Residential</h5>
+                                <hr/>
+                                <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in</p>
+                                <p class="currency ">$25</p>
+                                <button class="currencybtn text-uppercase ">buy now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6 col- col-xl-4 pt-3 ">
+                    <div class="containerBox ">
+                        <div class="card " style="width: 18rem; ">      
+                            <div class="ribbon ribbon-top-right "><span>Best</span></div>                   
+                            <div class="card-body ">
+                                <h5 class="card-title text-uppercase font-weight-bold ">Commercial</h5>
+                                <hr/>
+                                <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in</p>
+                                <p class="currency ">$50</p>
+                                <button class="currencybtnbest text-uppercase ">buy now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6 col- col-xl-4 pt-3 ">
+                    <div class="containerBox ">
+                        <div class="card " style="width: 18rem; ">
+                            <div class="card-body ">
+                                <h5 class="card-title text-uppercase font-weight-bold ">Proffessional</h5>
+                                <hr/>
+                                <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in</p>
+                                <p class="currency ">$150</p>
+                                <button class="currencybtn text-uppercase ">buy now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- our services end -->
+
+        <!-- Get  our services statarts  -->
+        <div class="container-fluid mt-5 " style="background-color: rgb(255, 72, 0); ">
+            <div class="d-inline-block mt-4 ml-4 ">
+                <div class="row ">
+                    <div class="col-8 pl-5 ">
+                        <h2 class="text-capitalize " style="color: white ">Get our services</h2>
+                        <p style="color: white; ">
+                            LOREM IPSUM GENERATOR
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris .</p>
+                    </div>
+                    <div class="col-4 text-center pt-5 ">
+                        <button class="contact ">Contact us</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container pt-5" id="team" >
+
+            <h1 class="text-center pt-4 text-uppercase our_services ">Our team</h1>
+            <div class="pt-3 services_line "></div>
+            <div class="row pt-5 ">
+                <div class="col-sm-12 col-md-6 col-lg-3 pt-4 ">
+                    <div class="containerBox ">
+                        <div class="card text-center " style="width: 18rem; ">
+                            <div class="card-body text-capitalize ">
+                            <img src="img/predefined/casurol/intro-carousel/about/team1.jpg " style="width:200px "/>
+                            <b>james smith</b>
+                            <p class="text-secondary " style="font-size:10px; font-style: italic; ">Chief Executive officer</p>
+                            <div class="d-flex ">
+                                <i class="fab fa-twitter "></i>
+                                <i class="fab fa-facebook-f "></i>
+                                <i class="fab fa-google "></i>
+                                <i class="fab fa-linkedin-in "></i>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 pt-4 ">
+                    <div class="containerBox ">
+                        <div class="card text-center " style="width: 18rem; ">
+                            <div class="card-body ">
+                            <img src="img/predefined/casurol/intro-carousel/about/team2.jpg " style="width:200px "/>
+                            <b>james smith</b>
+                            <p class="text-secondary " style="font-size:10px; font-style: italic; ">Chief Executive officer</p>
+                            <div class="d-flex ">
+                                <i class="fab fa-twitter "></i>
+                                <i class="fab fa-facebook-f "></i>
+                                <i class="fab fa-google "></i>
+                                <i class="fab fa-linkedin-in "></i>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 pt-4 ">
+                    <div class="containerBox ">
+                        <div class="card text-center " style="width: 18rem; ">
+                            <div class="card-body ">
+                            <img src="img/predefined/casurol/intro-carousel/about/team3.jpg " style="width:200px "/>
+                            <b>james smith</b>
+                            <p class="text-secondary " style="font-size:10px; font-style: italic; ">Chief Executive officer</p>
+                            <div class="d-flex ">
+                                <i class="fab fa-twitter "></i>
+                                <i class="fab fa-facebook-f "></i>
+                                <i class="fab fa-google "></i>
+                                <i class="fab fa-linkedin-in "></i>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 pt-4 ">
+                    <div class="containerBox ">
+                        <div class="card text-center " style="width: 18rem; ">
+                            <div class="card-body ">
+                            <img src="img/predefined/casurol/intro-carousel/about/team4.jpg " style="width:200px "/>
+                            <b>james smith</b>
+                            <p class="text-secondary " style="font-size:10px; font-style: italic; ">Chief Executive officer</p>
+                            <div class="d-flex ">
+                                <i class="fab fa-twitter "></i>
+                                <i class="fab fa-facebook-f "></i>
+                                <i class="fab fa-google "></i>
+                                <i class="fab fa-linkedin-in "></i>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container "  id="contact" >
+            <h1 class="text-center pt-4 text-uppercase our_services ">contact us</h1>
+            <div class="pt-3 services_line "></div>
+            <p class="text-center pt-3 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <div class="row ">
+                <div class="col-4 d-inline-block ">
+                    <div class=" ">
+                        <i class="fas fa-map-marker-alt fa-2x "></i>
+                        <b>Address</b>
+                        <p class="text-uppercase ">mn-12, lincon street</p>
+                    </div>
+                    <div>
+                        <i class="fas fa-phone fa-2x "></i>
+                        <b>Phone no</b>
+                        <p class="text-uppercase ">+1 234 555</p>
+                    </div>
+                    <div>
+                    <i class="fas fa-envelope fa-2x "></i>
+                    <b>Email</b>
+                    <p class="text-uppercase ">email@email.com</p>
+                </div>
+                </div>
+                <div class="col-8 ">
+                    <input type="text " class="form-control " placeholder="Full name "/>
+                    <input type="text " class="form-control " placeholder="email "/>
+                    <input type="text " class="form-control message " placeholder="Message " />
+                    <input type="submit " value="Send " class="float-right submitbtn text-center "/>
+                </div>
+            </div>
+            
+        </div><br><br><br>
+        <footer>
+<p style="text-align: center;">made with love by UTTAM</p>
+
+        </footer>
+    <script src="button.js "></script>
+
+</body>
+
+</html>
